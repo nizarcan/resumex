@@ -1,0 +1,78 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage[scaled]{helvet}
+\renewcommand\familydefault{\sfdefault}
+
+% Custom commands for consistent section formatting
+\newcommand{\resumeSection}[1]{
+  \vspace{2mm}
+  {\large\textbf{#1}}
+  \vspace{1mm}
+  \hrule
+  \vspace{1mm}
+}
+
+\newcommand{\roleHeader}[4]{
+  \textbf{#1} \hfill #2 \\
+  \textit{#3} \hfill \textit{#4}
+}
+
+% Remove page numbers
+\pagenumbering{gobble}
+
+\begin{document}
+
+\begin{center}
+{\Large\textbf{FULL NAME}}\\
+\vspace{1mm}
+Job Title\\
+\vspace{1mm}
+\href{mailto:your.email@example.com}{your.email@example.com} • +1 234 567 8900\\
+City, Country • \href{https://linkedin.com/in/yourprofile}{linkedin.com/in/yourprofile} • \href{https://github.com/yourusername}{github.com/yourusername}
+\end{center}
+
+\resumeSection{PROFESSIONAL SUMMARY}
+Experienced professional with expertise in [Key Skill 1], [Key Skill 2], and [Key Skill 3]. Track record of [Key Achievement]. Strong background in [Area of Expertise]. Demonstrated ability to [Key Strength] while working with cross-functional teams.
+
+\resumeSection{PROFESSIONAL EXPERIENCE}
+\roleHeader{Job Title}{Start Date -- End Date}{Company Name}{Technologies Used}
+\begin{itemize}[nosep,leftmargin=*]
+  \item Led development of [Project/Product] resulting in [Quantifiable Result]
+  \item Implemented [Technology/Process] to improve [Metric] by [Percentage]
+  \item Collaborated with team of [Number] to deliver [Project Outcome]
+  \item Managed [Resource/Process] leading to [Business Impact]
+  \item [Additional Points]
+\end{itemize}
+
+\roleHeader{Previous Job Title}{Start Date -- End Date}{Company Name}{Technologies Used}
+\begin{itemize}[nosep,leftmargin=*]
+  \item Developed [Feature/System] that [Business Impact]
+  \item Created [Solution] resulting in [Improvement]
+  \item Spearheaded initiative to [Goal] achieving [Result]
+  \item Established [Process/Framework] improving [Metric]
+\end{itemize}
+
+\resumeSection{TECHNICAL SKILLS}
+\textbf{Programming Languages:} Language 1, Language 2, Language 3\\
+\textbf{Frameworks \& Libraries:} Framework 1, Framework 2, Framework 3\\
+\textbf{Cloud \& Infrastructure:} Platform 1, Platform 2, Platform 3\\
+\textbf{Tools \& Technologies:} Tool 1, Tool 2, Tool 3\\
+\textbf{Databases:} Database 1, Database 2\\
+\textbf{Core Competencies:} Competency 1, Competency 2, Competency 3
+
+\resumeSection{EDUCATION}
+\roleHeader{Degree Name}{Start Date -- End Date}{University Name}{Additional Info}
+
+\resumeSection{LANGUAGES}
+Language 1 (Level), Language 2 (Level), Language 3 (Level)
+
+\resumeSection{CERTIFICATIONS}
+\begin{itemize}[nosep,leftmargin=*]
+  \item Certification 1 - Issuing Organization
+  \item Certification 2 - Issuing Organization
+\end{itemize}
+
+\end{document}
