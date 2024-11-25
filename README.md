@@ -61,14 +61,6 @@ The GitHub Action will automatically:
 - Each update creates a dated release
 - Access all versions in the [Releases](../../releases) section
 
-## 🛠 Technical Details
-
-- LaTeX-based resume template
-- Automated PDF generation via GitHub Actions
-- Version controlled with semantic versioning
-- Dated releases for easy tracking
-- MIT Licensed
-
 ## 📄 Latest Version
 
 Find your latest resume in the [Releases](../../releases/latest) section.
